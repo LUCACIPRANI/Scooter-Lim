@@ -1,0 +1,97 @@
+/* sfondi */
+
+body {
+  background-image: url(background.jpg);
+  height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body {
+  display: block;
+  margin:10px;
+}
+
+.container {
+    margin: 10px;
+    background-color: black;
+    border: 80px solid black;
+    opacity: 0.6;
+    width: 900px;
+    height: 570px;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+/* logo e testo iniziale */
+img{
+  display:block;
+  width: 200px;
+  align-items: center;
+  position: relative;
+  left: 340px;
+}
+
+.logo-text{
+  font-size: 15px;
+  color: #00FF00;
+  text-align: center;
+}
+
+/* seconda parte */
+
+.Barra__lime {
+  background-color: #00FF00;
+  background-position: center;
+  border: center;
+  padding: 10px;
+}
+
+.Pulsanti{
+  text-align: center;
+}
+
+/* terza parte */
+
+strong{
+  font-size: 22px;
+}
+
+.barra_gialla {
+  background-color: #DAA520;
+  background-position: center;
+  border: center;
+  padding: 12px;
+  width: 32%;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  bottom: 13px;
+}
+
+.barra_verde {
+  background-color: #32CD32;
+  background-position: center;
+  border: center;
+  padding: 12px;
+  width: 52%;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  bottom: 13px;
+}
+
+.barra_rossa {
+  background-color: #A52A2A;
+  background-position: center;
+  border: center;
+  padding: 12px;
+  width: 10%;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  bottom: 13px;
+}
+
+.Monopattino{
+  color: white;
+}
